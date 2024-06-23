@@ -6,9 +6,18 @@
     <uses-feature android:name="android.hardware.touchscreen.multitouch" />
     <uses-feature android:name="android.hardware.touchscreen.multitouch.raw" />
     <uses-feature android:name="android.hardware.touchscreen.multitouch.stylus" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.stylus.raw" />
+    <uses-feature android:name="android.hardware.touchscreen.stylus" />
+    <uses-feature android:name="android.hardware.touchscreen.stylus.raw" />
+    <uses-feature android:name="android.hardware.touchscreen.stylus.stylus" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.SET_TIME"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE"
+        tools:ignore="ProtectedPermissions" />
 
     <application
         android:allowBackup="true"
