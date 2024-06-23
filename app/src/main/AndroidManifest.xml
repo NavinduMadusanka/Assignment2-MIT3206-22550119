@@ -3,13 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-feature android:name="android.hardware.touchscreen" />
-    <uses-feature android:name="android.hardware.touchscreen.multitouch" />
-    <uses-feature android:name="android.hardware.touchscreen.multitouch.raw" />
-    <uses-feature android:name="android.hardware.touchscreen.multitouch.stylus" />
-    <uses-feature android:name="android.hardware.touchscreen.multitouch.stylus.raw" />
-    <uses-feature android:name="android.hardware.touchscreen.stylus" />
-    <uses-feature android:name="android.hardware.touchscreen.stylus.raw" />
-    <uses-feature android:name="android.hardware.touchscreen.stylus.stylus" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET"
